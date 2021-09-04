@@ -1,6 +1,8 @@
 name: Regenerate PluginMaster
 on: 
-  page_build:
+  push:
+    branches:
+      - main
   workflow_dispatch:
 
 jobs:
