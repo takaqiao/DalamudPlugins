@@ -1,9 +1,5 @@
 name: Upload to Tencent COS
 on:
-  workflow_run:
-    workflows: ["Regenerate PluginMaster"]
-    types:
-      - completed
   workflow_dispatch:
   
 jobs:
